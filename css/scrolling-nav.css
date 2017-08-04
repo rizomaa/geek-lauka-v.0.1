@@ -144,6 +144,17 @@ footer {
     white-space: nowrap;
 }
 
+
+.caption-product {
+    height: 100px;
+    overflow: hidden;
+}
+
+.caption-product .pull-right {
+  padding-bottom: 9px;
+  margin: 40px 0 20px;
+}
+
 /* Back to top button */
 .back-to-top {
   position: fixed;
@@ -226,3 +237,22 @@ footer {
 form .row:first-child .floating-label-form-group {
   border-top: 1px solid #eeeeee;
 }
+
+/* Progress bar styles*/
+.progress {
+  height: 50px; 
+  line-height: 50px;
+}
+.progress .progress-bar {
+  font-size: 18px;
+  line-height: 50px;
+}
+
+.progress-bar-geek {
+    background-color: #03C4EB;
+}
+
+
+/* END Progress bar styles*/
+
+
