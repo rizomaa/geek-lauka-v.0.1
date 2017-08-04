@@ -66,7 +66,7 @@ of those sections to manage the look and feel of the site. */
 /*Nav bar BRAND styles*/
 
 .navbar-fixed-top .nav {
-    padding: 15px 0;
+    padding: 5px 0;
 }
 
 .navbar-fixed-top .navbar-brand {
@@ -75,11 +75,11 @@ of those sections to manage the look and feel of the site. */
 
 @media(min-width:767px) {
     body {
-        padding-top: 80px; 
+        padding-top: 61px; 
     }
 
     .navbar-fixed-top .navbar-brand {
-        padding: 15px 0;
+        padding: 5px 0;
     }
 }
 
@@ -114,6 +114,10 @@ body {
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
+}
+
+.business-header .page-header {
+  margin-top: 80px;  
 }
 
 
