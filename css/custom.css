@@ -120,7 +120,12 @@ body {
 }
 
 .business-header .page-header {
-  margin-top: 80px;  
+  margin-top: 80px; 
+  color: #fff;
+}
+
+.business-header .caption h3 {
+  color: #fff;
 }
 
 
