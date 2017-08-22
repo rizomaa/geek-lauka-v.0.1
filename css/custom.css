@@ -112,7 +112,7 @@ body {
 
 .business-header {
     height: 400px;
-    background: url('http://placehold.it/1920x400?text=Галоўны малюнак') center center no-repeat scroll;
+    background: url('../images/geek_lauka_index_2.JPG') center center no-repeat scroll;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
