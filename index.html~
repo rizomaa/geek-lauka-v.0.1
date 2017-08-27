@@ -6,9 +6,10 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Вікіпедыя, Беларусь, Гік-Лаўка, паштоўкі з краявідамі, беларускія паштоўкі, паштоўкі для айцішніка, для камп'ютаршчыка, для гіка, для нерда, паштоўкі адміну, паштоўкі праграмісту, паштоўкі студэнту, беларускія паштоўкі, на дзень народзінаў, на свята">
+    <meta name="description" content="набыць тавары для гіка, нэрда, айцішніка: налепкі, паштоўкі, плакаты, майкі, торбы, значкі, creative commons">
+    <meta name="author" content="налепкі, паштоўкі, плакаты, майкі, торбы, значкі, creative commons">
 
-    <title>Гік-лаўка - Вікі-паштоўкі</title>
+    <title>Гік-лаўка. Тавары для гіка ад супольнасці Фаланстэра</title>
     <link rel="shortcut icon" type="image/png" href="images/geek_lauka_favicon.png"/>
 
     <!-- Bootstrap Core CSS -->
@@ -68,98 +69,160 @@
         <!-- /.container -->
     </nav>
 
+
+    <!-- Image Background Page Header -->
+    <!-- Note: The background image is set within the business-casual.css file.
+
+
+
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h1 class="tagline">Гік-лаўка</h1>
+                </div>
+            </div>
+        </div>
+
+ -->
+    <header class="business-header">
+
+
+
+
+<!-- Donate block -->
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+
+			<h2 class="page-header">Для пачатку працы гік-лаўкі збіраем прадзамовы на 100 рублёў</h2>
+
+			<div class="caption">
+						        <h3 class="pull-right">100 рублёў</h3>
+						        <h3>Замаўляй нішцякі!</h3>
+					</div>  
+			<div class="progress">
+			  <div class="progress-bar progress-bar-success" role="progressbar" style="width: 27%;" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+				Замоўлена на 27 рублёў. Паднажмем!
+			  </div>
+			</div>
+                </div>
+            </div>
+        </div>
+<!-- END Donate block -->
+    </header>
+
 <!-- Page Content -->
     <div class="container">
 
-
-
-        <!-- Portfolio Item Heading -->
+        <!-- Page Header -->
         <div class="row">
             <div class="col-lg-12">
-<div class="caption-product">
-		<h1 class="pull-right">10 руб.</h1>
-                <h1 class="page-header">Вікі-паштоўкі 
-		<small>камплект 10 штук</small>
-                </h1>
-</div>
+                <h2 class="page-header">Асартымент
+                    <small>тавараў лаўкі</small>
+                </h2>
             </div>
         </div>
         <!-- /.row -->
 
-        <!-- Portfolio Item Row -->
+        <!-- Projects Row -->
         <div class="row">
 
-            <div class="col-md-8">
-                <p><img class="img-responsive" src="images/products/pr2/wiki_post_3.JPG" alt=""></p>
-		<p><img class="img-responsive" src="images/products/pr2/wiki_post_4.JPG" alt=""></p>
-		<p><img class="img-responsive" src="images/products/pr2/wiki_post_2.JPG" alt=""></p>
+            <div class="col-md-4 portfolio-item">
+		<div class="caption">
+                                <h3 class="pull-right">10 р</h3>
+                                <h3><a href="product-1.html">Кансольныя паштоўкі</a>
+                                </h3>
+                </div>                
+
+                <a href="product-1.html">
+                    <img class="img-responsive" src="http://placehold.it/750x500" alt="">
+                </a>
+
             </div>
 
-            <div class="col-md-4">
-		<h3>Гісторыя і апісанне</h3>
-                <p>Паштоўкі з выявамі Беларусі, зробленыя супольнасцю вікіпедыстаў. Падчас розных конкурсаў, якія ладзяць супольнасць.  Добры падарунак сваякам, сябрам з розных гарадоў і мястэчак, а таксама замежжа.</p>		
-		<h4><a href="https://github.com/svetit/2016-postcards-wiki-commons" target="_blank"><i class="fa fa-github" aria-hidden="true"></i>  Зыходнікі</a></h4>
-		<h3>Як прымяняць</h3>
-		<ul>
-			<li>Адпраўце тым, хто яшчэ не ведае пра Вікіпедыю або толькі чуў. </li>
-			<li>Або ніколе не наведваў Беларусь. Хай памацаюць!</li>
-			<li>Так не чакайце свята, проста адпраўляйце іх сёння сваім дзядулям, бабулям, цеткам, дзядзькам.  Дарыце ім больш гікаўскай культуры.</li>
-		</ul>
 
-		<a href="contact.html" class="btn btn-lg btn-default">Замовіць тавар</a>
+
+            <div class="col-md-4 portfolio-item">
+		<div class="caption">
+                                <h3 class="pull-right">4 р</h3>
+                                <h3><a href="product-7.html">Роварныя налепкі</a>
+                                </h3>
+                </div>                
+
+
+                <a href="product-7.html">
+                    <img class="img-responsive" src="images/products/pr7/rovar_5.jpg" alt="">
+                </a>
+
+            </div>
+
+            <div class="col-md-4 portfolio-item">
+		<div class="caption">
+                                <h3 class="pull-right">3 р</h3>
+                                <h3><a href="product-4.html">Налепкі для Творчасці</a>
+                                </h3>
+                </div>                
+
+
+                <a href="product-4.html">
+                    <img class="img-responsive" src="images/products/pr4/cc_nalepki_3.JPG" alt="">
+                </a>
 
             </div>
 
         </div>
         <!-- /.row -->
 
+        <!-- Projects Row -->
+        <div class="row">
+            
+
+<div class="col-md-4 portfolio-item">
+		<div class="caption">
+                                <h3 class="pull-right">12 р</h3>
+                                <h3><a href="product-8.html">Сумкі Creative Commons</a>
+                                </h3>
+                </div>                
+
+                <a href="product-8.html">
+                    <img class="img-responsive" src="images/products/pr8/cc_sumki_5.jpg" alt="">
+                </a>
+
+            </div>
+
+            <div class="col-md-4 portfolio-item">
+		<div class="caption">
+                                <h3 class="pull-right">10 руб</h3>
+                                <h3><a href="product-2.html">Вікі-паштоўкі</a>
+                                </h3>
+                </div>                
+
+                <a href="product-2.html">
+                    <img class="img-responsive" src="http://placehold.it/750x500" alt="">
+                </a>
+
+            </div>
+
+            <div class="col-md-4 portfolio-item">
+		<div class="caption">
+                                <h3 class="pull-right">2 р</h3>
+                                <h3><a href="product-5.html">Налепкі для гікаў</a>
+                                </h3>
+                </div>                
+
+                <a href="product-5.html">
+                    <img class="img-responsive" src="http://placehold.it/750x500" alt="">
+                </a>
+
+            </div>
+
+        </div>        
 
     </div>
     <!-- /.container -->
 
 
  <div class="container">
-
-
- <div class="row">
-           <div class="col-lg-12">
-                <h2 class="page-header">Можа зацікавіць</h2>
-            </div>
-            <div class="col-md-4 portfolio-item">
-		<div class="caption">
-			<h3><a href="product-8.html">Сумкі Creative Commons</a></h3>
-                </div>
-                <a href="product-8.html">
-                    <img class="img-responsive" src="images/products/pr8/cc_sumki_5.jpg" alt="">
-                </a>
-            </div>
-
-            <div class="col-md-4 portfolio-item">
-		<div class="caption">
- 			<h3><a href="product-2.html">Вікі-паштоўкі</a></h3>
-                </div>
-                <a href="product-2.html">
-                    <img class="img-responsive" src="http://placehold.it/750x500" alt="">
-                </a>
-            </div>
-
-            <div class="col-md-4 portfolio-item">
-		<div class="caption">                               
-                   <h3><a href="product-5.html">Налепкі для гікаў</a></h3>
-                </div>                
-
-                <a href="product-5.html">
-                    <img class="img-responsive" src="http://placehold.it/750x500" alt="">
-                </a>
-            </div>       
-        </div>
-        <!-- /.row -->
-
-
-
-
-
-
 
         <!-- Page Sub Header -->
         <div class="row">
@@ -169,6 +232,7 @@
             </div>
         </div>
         <!-- /.row -->
+
 
  <!-- Call to Action Section -->
         <div class="well" id="padpiska">
@@ -223,7 +287,7 @@
 </div>
 
 
-<div class="container">
+ <div class="container">
 
         <hr>
 
