@@ -22,10 +22,6 @@ a:hover {
     color:#008000;
 }
 
-a:visited {
-    color:#668000;
-}
-
 @media(min-width:767px) {
     .navbar { 
         padding: 0px 0;       
