@@ -169,10 +169,13 @@ footer {
 }
 
 
-.caption-product {
+@media(min-width:767px) {
+  .caption-product {
     height: 100px;
     overflow: hidden;
+  }
 }
+
 
 .caption-product .pull-right {
   padding-bottom: 9px;
