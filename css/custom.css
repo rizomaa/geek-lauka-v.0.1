@@ -19,11 +19,15 @@ a {
 }
 
 a:hover {
-    color:#008000;
+    color:#00ff00;
 }
 
-a:visited {
+/*a:visited {
     color:#668000;
+}*/
+
+.btn-default {
+    background-color:#80ff80;
 }
 
 @media(min-width:767px) {
