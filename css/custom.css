@@ -140,7 +140,7 @@ body {
   color: #fff;
 }
 
-.business-header .caption h3 {
+.business-header .caption h3, .business-header p {
   color: #fff;
 }
 
