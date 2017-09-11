@@ -140,8 +140,12 @@ body {
   color: #fff;
 }
 
-.business-header .caption h3, .business-header p {
+.business-header .caption h3, .business-header p, .business-header a {
   color: #fff;
+}
+.business-header a:hover {
+  color: #fff;
+  text-decoration: none;
 }
 
 
