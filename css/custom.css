@@ -277,6 +277,7 @@ form .row:first-child .floating-label-form-group {
 .progress {
   height: 50px; 
   line-height: 50px;
+  background-color: #f5f9;
 }
 .progress .progress-bar {
   font-size: 18px;
