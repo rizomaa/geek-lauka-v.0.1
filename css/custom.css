@@ -148,6 +148,54 @@ body {
   text-decoration: none;
 }
 
+@media(max-width:767px) {
+  .caption-product .page-header {
+    margin-top: 50px;
+  }
+
+  .caption-product .page-header small {
+    font-size: 16px;
+    display: block;
+    float: left;
+    padding-top: 5px;
+  }
+  .caption-product .page-header {
+    padding-bottom: 30px;
+  }
+
+  .img-prod-container {
+    position: relative;
+    width: 100%;
+  }
+
+  .text1 {
+  position: absolute;
+  top: 5%;
+  right: 0;
+  width: 100%;
+  background-color:rgba(0, 0, 0, 0.6);
+  color: white;
+  font-size: 26px;
+
+}
+.text1 p {
+  padding: 5px 10px 0px 0;  
+  width: 100%;
+  text-align: right;
+}
+
+   .products .pull-right {
+    display: none;
+  }
+
+}
+
+@media(min-width:768px) {
+  .text1 {
+     display: none;
+  }
+}
+
 
 /* Customize the text color and shadow color and to optimize text legibility. */
 
@@ -189,6 +237,10 @@ footer {
   padding-bottom: 9px;
   margin: 40px 0 20px;
 }
+
+
+
+
 
 /* Back to top button */
 .back-to-top {
@@ -289,5 +341,31 @@ form .row:first-child .floating-label-form-group {
 
 
 /* END Progress bar styles*/
+
+.vodst-up-20 {
+  margin-top: 20px;
+}
+.vodst-up-30 {
+  margin-top: 30px;
+}
+.vodst-up-80 {
+  margin-top: 80px;
+}
+.vodst-up-90 {
+  margin-top: 90px;
+}
+
+.vodst-down-30 {
+  margin-bottom: 30px;
+}
+.vodst-down-20 {
+  margin-bottom: 20px;
+}
+.vodst-down-80 {
+  margin-bottom: 80px;
+}
+.vodst-down-90 {
+  margin-bottom: 90px;
+}
 
 
