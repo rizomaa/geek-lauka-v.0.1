@@ -143,6 +143,11 @@ body {
 .business-header .caption h3, .business-header p, .business-header a {
   color: #fff;
 }
+
+.business-header p {
+  font-size: 16px;
+}
+
 .business-header a:hover {
   color: #fff;
   text-decoration: none;
