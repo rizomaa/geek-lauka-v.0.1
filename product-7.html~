@@ -6,10 +6,9 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="мэш, mesh, налепкі, наклейкі, налепкі для адміна, на беларускай мове, вай фай, wi fi, налепкі на ноўтбук, на лэптоп, на планшэт, на мабільнік, на лядоўню, на халадзільнік, наклейкі">
+    <meta name="description" content="Роварныя налепкі на ровар або ноут. Неклейкі на веласіпед">
 
-
-    <title>Гік-лаўка - Мэш-налепкі</title>
+    <title>Гік-лаўка - Роварныя налепкі</title>
     <link rel="shortcut icon" type="image/png" href="images/geek_lauka_favicon.png"/>
 
     <!-- Bootstrap Core CSS -->
@@ -78,9 +77,9 @@
         <div class="row">
             <div class="col-lg-12">
 <div class="caption-product">
-		<h1 class="pull-right">6 руб.</h1>
-                <h1 class="page-header">Мэш-налепкі 
-		<small>кошт за камплект (10 штук)</small>
+		<h1 class="pull-right">4 руб.</h1>
+                <h1 class="page-header">Роварныя налепкі
+		<small>кошт за камплект (6 штук)</small>
                 </h1>
 </div>
             </div>
@@ -91,26 +90,27 @@
         <div class="row">
 
             <div class="col-md-8">
-                <p><img class="img-responsive" src="images/products/pr6/mesh_nalepki_1.jpg" alt=""></p>
-		<p><img class="img-responsive" src="http://placehold.it/750x500" alt=""></p>
-		<p><img class="img-responsive" src="http://placehold.it/750x500" alt=""></p>
+                <p><img class="img-responsive" src="images/products/pr7/rovar_1.jpg" alt=""></p>
+		<p><img class="img-responsive" src="images/products/pr7/rovar_2.jpg" alt=""></p>
+		<p><img class="img-responsive" src="images/products/pr7/rovar_4.jpg" alt=""></p>
             </div>
 
             <div class="col-md-4">
 		<h3>Гісторыя і апісанне</h3>
-                <p>Налепкі для адмінаў, сецівікоў і супольнасці за аўтаномны, незалежны інтэрнэт.</p>
-		<p>Яны ствараліся падчас нашых пілотных хапускаў мэш сеткі ў 2015 годзе. Але і зараз пасланне сугучны з каштоўнасямі якія нясуць дэцэнтралізаваныя тэхналогіі.</p>
-		<h4><a href="https://github.com/beMesh/stickers/tree/master/1" target="_blank"><i class="fa fa-github" aria-hidden="true"></i>  Зыходнікі</a></h4>
+                <p>Гэтыя налепкі мы стварылі падчас падрыхтоўкі брашуры "Дапаможнік Раварыста". Яны заклікаюць змяняць правілы. Добра падыходзяць, каб наляпіць на ноўтбук або ровар. Устойлівыя да вільгаці і трымаюцца на корпусе ноўта або роварнай раме.</p>
+		<h4><a href="https://github.com/rovar/dapamozhnik-2-stickers" target="_blank"><i class="fa fa-github" aria-hidden="true"></i>  Зыходнікі</a></h4>
 		<h3 class="vodst-up-30">Як прымяняць</h3>
 		<ul>
-			<li>Наляпіце на свой ноўтбук, ровар, мабільнік, тэчку з дакументамі або іншыя рэчы</li>
-			<li>Зрабіце з іх магніцікі</li>
-			<li>Падарыце сябрам, якія наладжваюць сеткі, адміняць сервакі, або любяць перастаўляць сістэмы.</li>
+			<li>Наляпіце на свой ровар, сцену або іншыя прыдатныя для гэтага рэчы.</li>
+			<li>Зрабіце з іх магніцікі.</li>
+			<li>Падарыце вашым сябрам раварыстам.</li>
 		</ul>
-		<p> Памер налепкі: 5х5см </p>
+
+		<p> Шырыня налепкі: 15см </p>
 
 		<p class="vodst-up-30 vodst-down-30">* Замовіць тавар можна праз кантактную форму </p>
 		<a href="contact.html" class="btn btn-lg btn-default">Замовіць тавар</a>
+
             </div>
 
         </div>
@@ -125,8 +125,8 @@
 
 
  <div class="row">
-
-	<div class="col-lg-12">
+     <div class="row">
+            <div class="col-lg-12">
                 <h2 class="page-header">Можа зацікавіць</h2>
             </div>
             <div class="col-md-4 portfolio-item">
@@ -143,7 +143,7 @@
  			<h3><a href="product-2.html">Вікі-паштоўкі</a></h3>
                 </div>
                 <a href="product-2.html">
-                    <img class="img-responsive" src="http://placehold.it/750x500" alt="">
+                    <img class="img-responsive" src="images/products/pr2/wiki_post_1.JPG" alt="">
                 </a>
             </div>
 
@@ -153,14 +153,12 @@
                 </div>                
 
                 <a href="product-5.html">
-                    <img class="img-responsive" src="http://placehold.it/750x500" alt="">
+                    <img class="img-responsive" src="images/products/pr5/geek_commit_2.JPG" alt="">
                 </a>
-            </div>              
-
+            </div>  
 
         </div>
         <!-- /.row -->
-
 
 
 

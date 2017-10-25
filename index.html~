@@ -129,14 +129,32 @@
 
             <div class="col-md-4 portfolio-item">
 		<div class="caption">
-                                <h3 class="pull-right">2 р</h3>
-                                <h3><a href="product-5.html">Налепкі для гікаў</a>
+                                <h3 class="pull-right">7 р</h3>
+                                <h3><a href="product-1.html">Кансольныя паштоўкі</a>
                                 </h3>
                 </div>                
 
-                <div class="img-prod-container" href="product-5.html">
-                    <a href="product-5.html"><img class="img-responsive" src="images/products/pr5/geek_commit_2.JPG" alt=""></a>
-                    <div class="text1"><p>2 руб.</p></div>
+                <div class="img-prod-container">		    
+                    <a href="product-1.html"><img class="img-responsive" src="images/products/pr1/console_post_5.JPG" alt=""></a>
+		  
+		    <div class="text1"><p>7 руб.</p></div>
+                </div>
+
+            </div>
+
+
+
+            <div class="col-md-4 portfolio-item">
+		<div class="caption">
+                                <h3 class="pull-right">4 р</h3>
+                                <h3><a href="product-7.html">Роварныя налепкі</a>
+                                </h3>
+                </div>                
+
+
+                <div class="img-prod-container">
+                    <a href="product-7.html"><img class="img-responsive" src="images/products/pr7/rovar_5.jpg" alt=""></a>
+	            <div class="text1"><p>4 руб.</p></div>
                 </div>
 
             </div>
@@ -156,41 +174,26 @@
 
             </div>
 
-            <div class="col-md-4 portfolio-item">
-		<div class="caption">
-                                <h3 class="pull-right">4 р</h3>
-                                <h3><a href="product-7.html">Роварныя налепкі</a>
-                                </h3>
-                </div>                
-
-
-                <div class="img-prod-container">
-                    <a href="product-7.html"><img class="img-responsive" src="images/products/pr7/rovar_5.jpg" alt=""></a>
-	            <div class="text1"><p>4 руб.</p></div>
-                </div>
-
-            </div>
-
         </div>
         <!-- /.row -->
 
         <!-- Projects Row -->
         <div class="row products">
-     
-            <div class="col-md-4 portfolio-item">
+            
+
+<div class="col-md-4 portfolio-item">
 		<div class="caption">
-                                <h3 class="pull-right">7 р</h3>
-                                <h3><a href="product-1.html">Кансольныя паштоўкі</a>
+                                <h3 class="pull-right">12 р</h3>
+                                <h3><a href="product-8.html">Торбы Creative Commons</a>
                                 </h3>
                 </div>                
 
-                <div class="img-prod-container">		    
-                    <a href="product-1.html"><img class="img-responsive" src="images/products/pr1/console_post_5.JPG" alt=""></a>
-		  
-		    <div class="text1"><p>7 руб.</p></div>
+                <div class="img-prod-container" href="product-8.html">
+                    <a href="product-8.html"><img class="img-responsive" src="images/products/pr8/cc_sumki_5.jpg" alt=""></a>
+		    <div class="text1"><p>12 руб.</p></div>
                 </div>
 
-            </div>       
+            </div>
 
             <div class="col-md-4 portfolio-item">
 		<div class="caption">
@@ -206,16 +209,16 @@
 
             </div>
 
-	    <div class="col-md-4 portfolio-item">
+            <div class="col-md-4 portfolio-item">
 		<div class="caption">
-                                <h3 class="pull-right">12 р</h3>
-                                <h3><a href="product-8.html">Торбы Creative Commons</a>
+                                <h3 class="pull-right">2 р</h3>
+                                <h3><a href="product-5.html">Налепкі для гікаў</a>
                                 </h3>
                 </div>                
 
-                <div class="img-prod-container" href="product-8.html">
-                    <a href="product-8.html"><img class="img-responsive" src="images/products/pr8/cc_sumki_5.jpg" alt=""></a>
-		    <div class="text1"><p>12 руб.</p></div>
+                <div class="img-prod-container" href="product-5.html">
+                    <a href="product-5.html"><img class="img-responsive" src="images/products/pr5/geek_commit_2.JPG" alt=""></a>
+                    <div class="text1"><p>2 руб.</p></div>
                 </div>
 
             </div>
