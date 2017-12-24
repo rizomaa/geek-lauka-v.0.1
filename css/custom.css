@@ -218,11 +218,7 @@ body {
   width: 100%;
   text-align: right;
 }
-
-   .products .pull-right {
-    display: none;
-  }
-
+	
 }
 
 @media(min-width:768px) {
