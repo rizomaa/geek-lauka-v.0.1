@@ -418,3 +418,11 @@ form.form-inline input.form-control{
   margin: 10px;
 }
 }
+
+
+/*калі уключаецца рэжым накладання (менш за 769) - адключыць, што паказваецца над малюнкам. Anthony 2017.12.25*/
+@media(min-width:166px) and (max-width: 767px){
+  .portfolio-item .pull-right {
+    display: none;
+  }
+}
