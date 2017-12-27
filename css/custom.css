@@ -186,47 +186,46 @@ body {
   font-size: 30px;
 }
 }
-@media(min-width:346px) {
-  .caption-product  {
-   padding-top:0px;
-  }
+@media (max-width:1200px) {
+    .caption-product  {
+     padding-top:0px;
+    }
 
-  .caption-product .page-header small {
-    font-size: 16px;
-    display: block;
-    /*float: left;*/
-    padding-top: 5px;
-  }
+    .caption-product .page-header small {
+      font-size: 16px;
+      display: block;
+      /*float: left;*/
+      padding-top: 5px;
+    }
 
-  .img-prod-container {
-    position: relative;
-    width: 100%;
-  }
+    .img-prod-container {
+      position: relative;
+      width: 100%;
+    }
 
-  .text1 {
-  position: absolute;
-  top: 5%;
-  right: 0;
-  width: 100%;
-  background-color:rgba(0, 0, 0, 0.6);
-  color: white;
-  font-size: 26px;
+    .text1 {
+     position: absolute;
+     top: 5%;
+     right: 0;
+     width: 100%;
+     background-color:rgba(0, 0, 0, 0.6);
+     color: white;
+     font-size: 26px;
 
-}
-.text1 p {
-  padding: 5px 10px 0px 0;  
-  width: 100%;
-  text-align: right;
-}
+   }
+   .text1 p {
+     padding: 5px 10px 0px 0;  
+     width: 100%;
+     text-align: right;
+   }
 	
 }
 
-@media(min-width:768px) {
+@media(min-width:1200px) {
   .text1 {
      display: none;
   }
 }
-
 
 /* Customize the text color and shadow color and to optimize text legibility. */
 
@@ -421,7 +420,7 @@ form.form-inline input.form-control{
 
 
 /*калі уключаецца рэжым накладання (менш за 769) - адключыць, што паказваецца над малюнкам. Anthony 2017.12.25*/
-@media(min-width:166px) and (max-width: 767px){
+@media (max-width: 1200px){
   .portfolio-item .pull-right {
     display: none;
   }
