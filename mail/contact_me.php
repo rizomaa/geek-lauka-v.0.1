@@ -19,8 +19,8 @@ $message = strip_tags(htmlspecialchars($_POST['message']));
 $to = 'soonreal+xx5ebhd5no5uw9cvltnh@boards.trello.com'; // Add your email address inbetween the '' replacing yourname@yourdomain.com - This is where the form will send a message to.
 //previous email team@geeklauka.by
 $order_time = date('m/d/Y h:i:s A');
-$email_subject = "Order at $order_time from Geeklauka by $name";
-$email_body = "Змест паведамлення.\n\n"."Here are the details:\n\nName: $name\n\nEmail: $email_address\n\nPhone: $phone\n\nMessage:\n$message";
+$email_subject = "Order at $order_time from Geeklauka";
+$email_body = "Змест паведамлення.\n\n"."Here are the details:\n\n Name: $name\n\nEmail: $email_address\n\nPhone: $phone\n\nMessage:\n$message";
 
 $headers = "From: $email_address\r\n".
 		"MIME-Version: 1.0" . "\r\n" . 
