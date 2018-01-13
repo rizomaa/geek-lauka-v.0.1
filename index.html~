@@ -101,8 +101,8 @@
 						        <h3>Замаўляй!</h3>
 					</div>  
 			<div class="progress">
-			  <div class="progress-bar progress-bar-success" role="progressbar" style="width: 49%;" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
-				49%
+			  <div class="progress-bar progress-bar-success" role="progressbar" style="width: 100%;" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+				102%
 			  </div>
 			</div>
                 </div>
@@ -281,6 +281,60 @@
 
             <div class="col-md-4 portfolio-item">
 		<div class="caption">
+                                <h3 class="pull-right">5 р</h3>
+                                <h3><a href="product-3.html">Паштоўкі ад Фур'е</a>
+                                </h3>
+                </div>                
+
+
+                <div class="img-prod-container">
+                    <a href="product-3.html"><img class="img-responsive" src="http://via.placeholder.com/750x450" alt=""></a>
+		    <div class="text1"><p>5 руб.</p></div>
+                </div>
+
+            </div>
+
+
+            <div class="col-md-4 portfolio-item">
+		<div class="caption">
+                                <h3 class="pull-right">8 р</h3>
+                                <h3><a href="product-9.html">Пірацкія плакаты</a>
+                                </h3>
+                </div>                
+
+
+                <div class="img-prod-container">
+                    <a href="product-9.html"><img class="img-responsive" src="http://via.placeholder.com/750x450" alt=""></a>
+		    <div class="text1"><p>8 руб.</p></div>
+                </div>
+
+            </div>
+
+
+            <div class="col-md-4 portfolio-item">
+		<div class="caption">
+                                <h3 class="pull-right">6 р</h3>
+                                <h3><a href="product-6.html">Мэш-налепкі</a>
+                                </h3>
+                </div>                
+
+
+                <div class="img-prod-container">
+                    <a href="product-6.html"><img class="img-responsive" src="http://via.placeholder.com/750x450" alt=""></a>
+	            <div class="text1"><p>6 руб.</p></div>
+                </div>
+
+            </div>           
+
+        </div>
+         /.row -->
+
+
+ 	<!-- Projects Row 
+        <div class="row products">
+
+            <div class="col-md-4 portfolio-item">
+		<div class="caption">
                                 <h3 class="pull-right">8 р</h3>
                                 <h3><a href="product-9.html">Пірацкія плакаты</a>
                                 </h3>
@@ -326,8 +380,6 @@
 
         </div>
          /.row -->
-
-
 
 
 
