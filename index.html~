@@ -125,7 +125,7 @@
         <!-- /.row -->
 
 
-       	<!-- Projects Row 
+       	<!-- Projects Row -->
         <div class="row products">
 
             <div class="col-md-4 portfolio-item">
@@ -166,14 +166,14 @@
                 </div>                
 
                 <div class="img-prod-container">
-                    <a href="product-15.html"><img class="img-responsive" src="images/products/pr15/8bit_heart_cover.jpg" alt=""></a>
+                    <a href="product-15.html"><img class="img-responsive" src="http://via.placeholder.com/750x450" alt=""></a>
 		    <div class="text1"><p>35 руб.</p></div>
                 </div>
 
             </div>
 
         </div>
-           /.row -->
+        <!--    /.row -->
 
 
         <!-- Projects Row --> 
