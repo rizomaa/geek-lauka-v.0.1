@@ -1,2 +1,6 @@
 .htaccess
 robots.txt
+<<<<<<< HEAD
+mail/config.php
+=======
+>>>>>>> parent of 4b11277... add site config, add google recaptcha, add two email destination, error message
