@@ -81,6 +81,10 @@ $(function() {
                         showSuccess();
                         //clear all fields
                         $('#contactForm').trigger("reset");
+                        //clear recaptcha
+                        if(typeof grecaptcha != 'undefined') {
+                            grecaptcha.reset();
+                        }
                     }
                 },
                 error: function() {

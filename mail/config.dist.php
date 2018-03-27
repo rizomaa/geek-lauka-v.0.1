@@ -6,5 +6,5 @@ $config = array(
         'FIST_EMAIL@boards.trello.com',
         'SECOND_EMAIL@boards.trello.com'
     )
-)
+);
 ?>
