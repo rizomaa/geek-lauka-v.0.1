@@ -473,3 +473,7 @@ img.zoom-img {
   cursor: default;
 }
 
+.product-info {
+  position: sticky;
+  top: 60px;
+}
