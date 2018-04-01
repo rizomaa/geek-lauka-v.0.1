@@ -128,7 +128,7 @@ body {
 
 .business-header {
     height: 400px;
-    background: url('../images/dranik_server_4.jpg') center center no-repeat scroll;
+    background: url('../images/back_znizhka_2.jpg') center center no-repeat scroll;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -139,6 +139,23 @@ body {
   margin-top: 80px; 
   color: #fff;
 }
+
+/* Headers For Sales Block */
+
+.business-header .page-header-2 {
+  font-size: 70px;
+  color: #ff6aff;
+  margin-top: 60px; 
+}
+
+.business-header .page-header-3 {
+  font-size: 25px;
+  color: #fff;
+  margin-top: 20px; 
+}
+
+/* END of Headers For Sales Block */
+
 
 .business-header .caption h3, .business-header p, .business-header a {
   color: #fff;
