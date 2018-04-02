@@ -128,7 +128,7 @@ body {
 
 .business-header {
     height: 400px;
-    background: url('../images/dranik_server_4.jpg') center center no-repeat scroll;
+    background: url('../images/back_znizhka_2.jpg') center center no-repeat scroll;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -139,6 +139,23 @@ body {
   margin-top: 80px; 
   color: #fff;
 }
+
+/* Headers For Sales Block */
+
+.business-header .page-header-2 {
+  font-size: 70px;
+  color: #ff6aff;
+  margin-top: 60px; 
+}
+
+.business-header .page-header-3 {
+  font-size: 25px;
+  color: #fff;
+  margin-top: 20px; 
+}
+
+/* END of Headers For Sales Block */
+
 
 .business-header .caption h3, .business-header p, .business-header a {
   color: #fff;
@@ -428,4 +445,56 @@ form.form-inline input.form-control{
   .portfolio-item .pull-right {
     display: none;
   }
+}
+
+/* Zoom */
+img[data-action="zoom"] {
+  cursor: pointer;
+  cursor: -webkit-zoom-in;
+  cursor: -moz-zoom-in;
+}
+.zoom-img,
+.zoom-img-wrap {
+  position: relative;
+  z-index: 666;
+  -webkit-transition: all 300ms;
+       -o-transition: all 300ms;
+          transition: all 300ms;
+}
+img.zoom-img {
+  cursor: pointer;
+  cursor: -webkit-zoom-out;
+  cursor: -moz-zoom-out;
+}
+.zoom-overlay {
+  z-index: 420;
+  background: #fff;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  pointer-events: none;
+  filter: "alpha(opacity=0)";
+  opacity: 0;
+  -webkit-transition:      opacity 300ms;
+       -o-transition:      opacity 300ms;
+          transition:      opacity 300ms;
+}
+.zoom-overlay-open .zoom-overlay {
+  filter: "alpha(opacity=100)";
+  opacity: 1;
+}
+.zoom-overlay-open,
+.zoom-overlay-transitioning {
+  cursor: default;
+}
+
+.product-info {
+  position: sticky;
+  top: 60px;
+}
+
+.socnetwork {
+  font-size: 1.5em;
 }
