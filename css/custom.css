@@ -239,12 +239,24 @@ body {
      width: 100%;
      text-align: right;
    }
-	
+   .sticky-caption .caption-button {
+     display: none;
+   }
 }
 
 @media(min-width:1200px) {
-  .text1 {
-     display: none;
+  .hide-desktop, .text1 {
+    display: none;
+  }
+  .sticky-caption {
+    background: white;
+    position: sticky;
+    top: 61px;
+    z-index: 2;	
+  }
+  .product-info {
+    position: sticky;
+    top: 163px !important;
   }
 }
 
@@ -492,7 +504,7 @@ img.zoom-img {
 
 .product-info {
   position: sticky;
-  top: 60px;
+  top: 61px;
 }
 
 .socnetwork {
