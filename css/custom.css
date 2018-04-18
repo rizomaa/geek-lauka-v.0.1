@@ -44,8 +44,6 @@ a:hover {
     .navbar-brand, .top-nav-collapse {
         padding: 0;
     }
-}
-
 /* Demo Sections - You can use these as guides or delete them - the scroller will work with any sort of height, fixed, undefined, or percentage based.
 The padding is very important to make sure the scrollspy picks up the right area when scrolled to. Adjust the margin and padding of sections and children 
 of those sections to manage the look and feel of the site. */
@@ -266,7 +264,7 @@ body {
    }
    .sticky-caption .caption-button {
      display: none;
-   }
+   } 
 }
 
 @media(min-width:1200px) {
@@ -282,6 +280,9 @@ body {
   .product-info {
     position: sticky;
     top: 163px !important;
+  }
+  #mc-embedded-subscribe-form.form-inline .form-group {
+    width: 25%;
   }
 }
 
@@ -469,6 +470,7 @@ form.form-inline{
   margin: auto;
   text-align:center;
 }
+
 @media(min-width: 1000px){
 form.form-inline input.form-control{
   font-size: 18px;
@@ -534,4 +536,13 @@ img.zoom-img {
 
 .socnetwork {
   font-size: 1.5em;
+}
+
+#mc-embedded-subscribe {
+  vertical-align: top;
+  margin: 10px;
+}
+
+#mc-embedded-subscribe-form.form-inline .form-group {
+  vertical-align: top;
 }
