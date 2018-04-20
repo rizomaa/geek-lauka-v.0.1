@@ -39,15 +39,11 @@ a:hover {
         -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
         transition: background .5s ease-in-out,padding .5s ease-in-out;
     }
+   
 
     .navbar-brand, .top-nav-collapse {
         padding: 0;
     }
-    #mc-embedded-subscribe-form.form-inline .form-group {
-      width: 32%;
-    }
-}
-
 /* Demo Sections - You can use these as guides or delete them - the scroller will work with any sort of height, fixed, undefined, or percentage based.
 The padding is very important to make sure the scrollspy picks up the right area when scrolled to. Adjust the margin and padding of sections and children 
 of those sections to manage the look and feel of the site. */
@@ -99,11 +95,22 @@ of those sections to manage the look and feel of the site. */
     .navbar-fixed-top .navbar-brand {
         padding: 5px 0;
     }
+    .navbar-header {
+      padding-right: 70px;
+      background:url(../images/lauka_motto.png) right 10px no-repeat;
+      -webkit-background-size: 55px;
+      background-size: 55px;
+    }
 }
 
 .navbar-brand img {
     height: 40px;
 }
+
+ .navbar-right li>a {
+      padding: 15px 10px;
+    }
+  
 
 
 
@@ -117,7 +124,21 @@ body {
     padding-top: 40px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
 }
 
+.navbar-header {
+  background: url(../images/lauka_motto.svg) 285px 5px no-repeat;
+  -webkit-background-size: 60px;
+  background-size: 55px;
 }
+
+}
+
+@media(max-width:410px) {
+  .navbar-header {
+    background: none;
+  }
+}
+
+
 
 .portfolio-item {
     margin-bottom: 25px;
