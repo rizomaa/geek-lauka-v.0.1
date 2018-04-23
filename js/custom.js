@@ -1,4 +1,7 @@
 jQuery(document).ready(function( $ ) {
+  // Load standard blocks
+  $('#navigation').load('navigation.html');
+  $('#footer').load('footer.html');	
   // Add zoom to product images 
   $('img[src^="images/products"]').filter(function() {return !$(this).parent().is('a')}).attr('data-action', 'zoom');
   // Back to top button

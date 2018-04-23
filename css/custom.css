@@ -97,7 +97,9 @@ of those sections to manage the look and feel of the site. */
     body {
         padding-top: 61px; 
     }
-
+    nav.navbar {
+        min-height: 61px;
+    }
     .navbar-fixed-top .navbar-brand {
         padding: 5px 0;
     }
