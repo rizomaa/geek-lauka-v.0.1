@@ -44,6 +44,12 @@ a:hover {
     .navbar-brand, .top-nav-collapse {
         padding: 0;
     }
+  
+    #mc-embedded-subscribe-form.form-inline .form-group { 
+      width: 32%; 
+    }
+}
+
 /* Demo Sections - You can use these as guides or delete them - the scroller will work with any sort of height, fixed, undefined, or percentage based.
 The padding is very important to make sure the scrollspy picks up the right area when scrolled to. Adjust the margin and padding of sections and children 
 of those sections to manage the look and feel of the site. */
@@ -495,7 +501,7 @@ img[data-action="zoom"] {
 .zoom-img,
 .zoom-img-wrap {
   position: relative;
-  z-index: 666;
+  z-index: 2000;
   -webkit-transition: all 300ms;
        -o-transition: all 300ms;
           transition: all 300ms;
@@ -506,7 +512,7 @@ img.zoom-img {
   cursor: -moz-zoom-out;
 }
 .zoom-overlay {
-  z-index: 420;
+  z-index: 1999;
   background: #fff;
   position: fixed;
   top: 0;
