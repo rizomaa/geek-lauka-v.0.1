@@ -2,72 +2,29 @@ jQuery(document).ready(function( $ ) {
   // Load standard blocks
   $('#navigation').load('navigation.html');
   $('#footer').load('footer.html');	
+  $('#subscribe').load('subscribe.html', function() {
+    initValidation($);
+  });
+  
   // Add zoom to product images 
   $('img[src^="images/products"]').filter(function() {return !$(this).parent().is('a')}).attr('data-action', 'zoom');
+
   // Back to top button
   $(window).scroll(function() {
-
       if ($(this).scrollTop() > 100) {
           $('.back-to-top').fadeIn('slow');
       } else {
           $('.back-to-top').fadeOut('slow');
       }
-      
   });
   
   $('.back-to-top').click(function(){
       $('html, body').animate({scrollTop : 0},1500, 'easeInOutExpo');
       return false;
   });
-  
-  $.validator.addMethod("specificName", function(value, element) {
-    return this.optional(element) || /^[A-Za-zА-Яа-яЁё]{1,22}$/.test(value);
-  }, "Дапушчальныя толькі рускія і лацінскія сімвалы, не больш за 20");
-  
-  $.extend(jQuery.validator.messages, {
-    required: "Поле павінна быць запоўнена",
-    email: "Памылковы фармат адрасу"
-  });
-  
-  $( "#mc-embedded-subscribe-form" ).validate( {
-      ignoreTitle: true,
-      rules: {
-        FNAME: {
-          required: true,
-          specificName: true
-        },
-        LNAME: {
-          required: true,
-          specificName: true
-        },
-        EMAIL: {
-            required: true,
-            email: true
-        },
-      },
-      errorElement: "em",
-      errorPlacement: function ( error, element ) {
-          // Add the `help-block` class to the error element
-          error.addClass( "help-block" );
-
-          if ( element.prop( "type" ) === "checkbox" ) {
-              error.insertAfter( element.parent( "label" ) );
-          } else {
-              error.insertAfter( element );
-          }
-      },
-      highlight: function ( element, errorClass, validClass ) {
-          $( element ).parents( ".form-group" ).addClass( "has-error" ).removeClass( "has-success" );
-      },
-      unhighlight: function (element, errorClass, validClass) {
-          $( element ).parents( ".form-group" ).addClass( "has-success" ).removeClass( "has-error" );
-      }
-  });
-
 });
 
 //  Google analysis
-
 (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
   m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
