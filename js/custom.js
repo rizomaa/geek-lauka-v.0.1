@@ -9,6 +9,12 @@ jQuery(document).ready(function( $ ) {
   // Add zoom to product images 
   $('img[src^="images/products"]').filter(function() {return !$(this).parent().is('a')}).attr('data-action', 'zoom');
 
+ // Add zoom to services images 
+  $('img[src^="images/services"]').filter(function() {return !$(this).parent().is('a')}).attr('data-action', 'zoom');
+
+ // Add zoom to workshops images 
+  $('img[src^="images/workshops"]').filter(function() {return !$(this).parent().is('a')}).attr('data-action', 'zoom');
+
   // Back to top button
   $(window).scroll(function() {
       if ($(this).scrollTop() > 100) {
