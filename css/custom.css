@@ -53,7 +53,7 @@ a:hover {
 /* Demo Sections - You can use these as guides or delete them - the scroller will work with any sort of height, fixed, undefined, or percentage based.
 The padding is very important to make sure the scrollspy picks up the right area when scrolled to. Adjust the margin and padding of sections and children 
 of those sections to manage the look and feel of the site. */
-
+}
 .intro-section {
     height: 100%;
     padding-top: 150px;
@@ -136,7 +136,7 @@ body {
 }
 
 .navbar-header {
-  background: url(../images/lauka_motto.svg) 285px 5px no-repeat;
+  background: url(../images/lauka_motto.png) 285px 5px no-repeat;
   -webkit-background-size: 60px;
   background-size: 55px;
 }
@@ -146,6 +146,14 @@ body {
 @media(max-width:410px) {
   .navbar-header {
     background: none;
+  }
+  .navbar-header .navbar-brand {
+    padding:  0 0 0 5px;
+    /*padding-left: 5px!important;
+    padding-right: 0!important;*/
+  }
+  .navbar-toggle {
+    margin-right: 8px;
   }
 }
 
