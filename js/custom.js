@@ -1,6 +1,13 @@
 jQuery(document).ready(function( $ ) {
   // Load standard blocks
-  $('#navigation').load('navigation.html');
+  $('#navigation').load('navigation.html',function() {
+      var activePage = window.location.href.split('/').pop().split(/[-.]+/).shift(),
+        activeSection = $(this).data('active') || activePage;
+      if (activeSection) {
+        var nav = $('[data-section^="' + activeSection + '"]');
+        nav.addClass('main-active');
+      }
+  });
   $('#footer').load('footer.html');	
   $('#subscribe').load('subscribe.html', function() {
     initValidation($);

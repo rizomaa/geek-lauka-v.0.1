@@ -7,7 +7,7 @@ function initValidation($) {
   });
     
   $.validator.addMethod("specificName", function(value, element) {
-    return this.optional(element) || /^[A-Za-zА-Яа-яЁё]{1,22}$/.test(value);
+    return this.optional(element) || !/[0-9±!@#$%^&*()_=)]$/.test(value) || (value.length > 1 ||  value.length < 20);
   }, "Дапушчальныя толькі рускія і лацінскія сімвалы, не больш за 20");
   
   $.extend(jQuery.validator.messages, {
