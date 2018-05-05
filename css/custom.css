@@ -39,17 +39,21 @@ a:hover {
         -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
         transition: background .5s ease-in-out,padding .5s ease-in-out;
     }
+   
 
     .navbar-brand, .top-nav-collapse {
         padding: 0;
     }
-
+  
+    #mc-embedded-subscribe-form.form-inline .form-group { 
+      width: 32%; 
+    }
 }
 
 /* Demo Sections - You can use these as guides or delete them - the scroller will work with any sort of height, fixed, undefined, or percentage based.
 The padding is very important to make sure the scrollspy picks up the right area when scrolled to. Adjust the margin and padding of sections and children 
 of those sections to manage the look and feel of the site. */
-
+}
 .intro-section {
     height: 100%;
     padding-top: 150px;
@@ -93,15 +97,28 @@ of those sections to manage the look and feel of the site. */
     body {
         padding-top: 61px; 
     }
-
+    nav.navbar {
+        min-height: 61px;
+    }
     .navbar-fixed-top .navbar-brand {
         padding: 5px 0;
+    }
+    .navbar-header {
+      padding-right: 70px;
+      background:url(../images/lauka_motto.png) right 10px no-repeat;
+      -webkit-background-size: 55px;
+      background-size: 55px;
     }
 }
 
 .navbar-brand img {
     height: 40px;
 }
+
+ .navbar-right li>a {
+      padding: 15px 10px;
+    }
+  
 
 
 
@@ -110,12 +127,37 @@ of those sections to manage the look and feel of the site. */
 /* Header styles*/
 
 @media(max-width:767px) {
+li.socnetwork {
+  display: inline-block; 
+}
 
 body {
     padding-top: 40px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
 }
 
+.navbar-header {
+  background: url(../images/lauka_motto.png) 285px 5px no-repeat;
+  -webkit-background-size: 60px;
+  background-size: 55px;
 }
+
+}
+
+@media(max-width:410px) {
+  .navbar-header {
+    background: none;
+  }
+  .navbar-header .navbar-brand {
+    padding:  0 0 0 5px;
+    /*padding-left: 5px!important;
+    padding-right: 0!important;*/
+  }
+  .navbar-toggle {
+    margin-right: 8px;
+  }
+}
+
+
 
 .portfolio-item {
     margin-bottom: 25px;
@@ -128,7 +170,7 @@ body {
 
 .business-header {
     height: 400px;
-    background: url('../images/dranik_server_4.jpg') center center no-repeat scroll;
+    background: url('../images/back_znizhka_2.jpg') center center no-repeat scroll;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -139,6 +181,23 @@ body {
   margin-top: 80px; 
   color: #fff;
 }
+
+/* Headers For Sales Block */
+
+.business-header .page-header-2 {
+  font-size: 70px;
+  color: #ff6aff;
+  margin-top: 60px; 
+}
+
+.business-header .page-header-3 {
+  font-size: 25px;
+  color: #fff;
+  margin-top: 20px; 
+}
+
+/* END of Headers For Sales Block */
+
 
 .business-header .caption h3, .business-header p, .business-header a {
   color: #fff;
@@ -224,7 +283,7 @@ body {
    }
    .sticky-caption .caption-button {
      display: none;
-   }
+   } 
 }
 
 @media(min-width:1200px) {
@@ -240,6 +299,9 @@ body {
   .product-info {
     position: sticky;
     top: 163px !important;
+  }
+  #mc-embedded-subscribe-form.form-inline .form-group {
+    width: 25%;
   }
 }
 
@@ -427,6 +489,7 @@ form.form-inline{
   margin: auto;
   text-align:center;
 }
+
 @media(min-width: 1000px){
 form.form-inline input.form-control{
   font-size: 18px;
@@ -451,7 +514,7 @@ img[data-action="zoom"] {
 .zoom-img,
 .zoom-img-wrap {
   position: relative;
-  z-index: 666;
+  z-index: 2000;
   -webkit-transition: all 300ms;
        -o-transition: all 300ms;
           transition: all 300ms;
@@ -462,7 +525,7 @@ img.zoom-img {
   cursor: -moz-zoom-out;
 }
 .zoom-overlay {
-  z-index: 420;
+  z-index: 1999;
   background: #fff;
   position: fixed;
   top: 0;
@@ -490,6 +553,15 @@ img.zoom-img {
   top: 61px;
 }
 
-.socnetwork {
+li.socnetwork {
   font-size: 1.5em;
+}
+
+#mc-embedded-subscribe {
+  vertical-align: top;
+  margin: 10px;
+}
+
+#mc-embedded-subscribe-form.form-inline .form-group {
+  vertical-align: top;
 }
