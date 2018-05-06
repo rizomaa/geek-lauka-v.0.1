@@ -296,10 +296,6 @@ body {
     top: 61px;
     z-index: 2;	
   }
-  .product-info {
-    position: sticky;
-    top: 163px !important;
-  }
   #mc-embedded-subscribe-form.form-inline .form-group {
     width: 25%;
   }
@@ -546,11 +542,6 @@ img.zoom-img {
 .zoom-overlay-open,
 .zoom-overlay-transitioning {
   cursor: default;
-}
-
-.product-info {
-  position: sticky;
-  top: 61px;
 }
 
 li.socnetwork {
