@@ -570,3 +570,14 @@ li.socnetwork {
   color: #333;
   background-color: #80ff80;
 }
+
+.img-prod-container.dyi-icon:after {
+  position: absolute;
+  bottom: 5px;
+  width: 30%;
+  height: 30%;
+  content: '';
+  background: url(../images/diy-icon-lg.png) no-repeat;
+  background-size: contain;
+  background-position-x: 5px;
+}
