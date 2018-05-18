@@ -115,13 +115,13 @@ of those sections to manage the look and feel of the site. */
     height: 40px;
 }
 
- .navbar-right li>a {
-      padding: 15px 10px;
-    }
+.navbar-right li>a {
+  padding: 15px 10px;
+}
   
-
-
-
+.caption-button > a{
+  margin-top: 30px;
+}
 
 
 /* Header styles*/
@@ -135,7 +135,7 @@ li.socnetwork {
 }
 
 body {
-    padding-top: 40px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+  padding-top: 40px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
 }
 
 .navbar-header {
@@ -219,45 +219,38 @@ body {
   text-decoration: none;
 }
 .caption-product{
+  line-height: 48px;
   padding-top:30px;
-  display: flex;
-  justify-content: space-between;
+  font-size: 25px;
+  width:100%;
 }
- .caption-product .page-header{
+.caption-product .labels{
+  display: inline-block;
+}
+.caption-product .labels i, span {
+  margin-right: 10px;
+}
+.caption-price {
+  margin: 40px 0 20px;
   font-size: 25px;
-  display: flex;
-  flex-wrap: wrap;
-
- }
-  h1.pull-right{
-    text-align: right;
-    /*flex-basis: 30%;*/
-     font-size: 25px;
-     display: flex;
-     align-items: center;
-  }
- h1.page-header{
-  flex-basis: 70%;
-  font-size: 25px;
- } 
- .page-header small{
-  flex-basis: 100%;
- }
+  align-items: center;
+  position: absolute;
+  right: 15px;
+  top: 0;
+  line-height: 48px;
+}
 @media(min-width:767px){
   .caption-product{
-  padding-top:0px;
+    padding-top:0px;
+  }
+}
 
-}
- h1.page-header .page-header,h1.pull-right{
-  font-size: 30px;
-}
-}
 @media (max-width:1200px) {
     .caption-product  {
      padding-top:0px;
     }
 
-    .caption-product .page-header small {
+    .caption-product small {
       font-size: 16px;
       display: block;
       /*float: left;*/
@@ -325,21 +318,9 @@ footer {
 
 @media(min-width:767px) {
   .caption-product {
- 
     overflow: hidden;
   }
 }
-
-
-.caption-product .pull-right {
-  padding-bottom: 9px;
-  margin: 40px 0 20px;
-  order: 2;
-}
-
-
-
-
 
 /* Back to top button */
 .back-to-top {
@@ -359,6 +340,20 @@ footer {
   body {
     padding-top: 120px;
   } 
+  .caption-button {
+    text-align: right;
+  }
+  .caption-product {
+    margin-top: 10px;
+  }
+  .caption-price {
+    position: relative;
+    display: block;
+    text-align: right;
+    width: 100%;
+    right: 0;
+    margin: 20px 0 10px;
+  }
 }
 
 @media (max-width: 768px) {
@@ -367,6 +362,12 @@ footer {
   } 
   .back-to-top {
     bottom: 15px;
+  }
+  .caption-product .labels{
+    display: block;
+    position: absolute;
+    left: 15px;
+    top: 75px;
   }
 }
 
@@ -580,4 +581,29 @@ li.socnetwork {
   background: url(../images/diy-icon-lg.png) no-repeat;
   background-size: contain;
   background-position-x: 5px;
+}
+
+.icon {
+  display: inline-block;
+  width: 48px;
+  height: 48px;
+  vertical-align: middle
+}
+
+.icon-diy {
+  background: url(../images/diy-icon-lg.png) no-repeat;
+  background-size: 100%;
+}
+
+.label-sale {
+  background-color: #ff2a7f;
+}
+.sale {
+  color: #ff2a7f;
+}
+
+.sale del {
+  color: black;
+  font-size: 70%;
+  margin-right: 5px;
 }
