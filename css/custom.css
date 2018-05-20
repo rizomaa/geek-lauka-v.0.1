@@ -127,6 +127,9 @@ of those sections to manage the look and feel of the site. */
 /* Header styles*/
 
 @media(max-width:767px) {
+.sticky-caption .caption-button {
+  display: none;
+}   
 li.socnetwork {
   display: inline-block; 
 }
@@ -281,20 +284,11 @@ body {
      width: 100%;
      text-align: right;
    }
-   .sticky-caption .caption-button {
-     display: none;
-   } 
 }
 
 @media(min-width:1200px) {
   .hide-desktop, .text1 {
     display: none;
-  }
-  .sticky-caption {
-    background: white;
-    position: sticky;
-    top: 61px;
-    z-index: 2;	
   }
   #mc-embedded-subscribe-form.form-inline .form-group {
     width: 25%;
@@ -361,7 +355,16 @@ footer {
   transition: background 0.5s;
 }
 
+@media (max-width:990px) {
+  body {
+    padding-top: 120px;
+  } 
+}
+
 @media (max-width: 768px) {
+  body {
+    padding-top: 61px;
+  } 
   .back-to-top {
     bottom: 15px;
   }
@@ -492,8 +495,14 @@ form.form-inline input.form-control{
   margin: 10px;
 }
 }
-
-
+@media(min-width: 1024px){
+.sticky-caption {
+  background: white;
+  position: sticky;
+  top: 61px;
+  z-index: 2;	
+}
+}
 /*калі уключаецца рэжым накладання (менш за 769) - адключыць, што паказваецца над малюнкам. Anthony 2017.12.25*/
 @media (max-width: 1200px){
   .portfolio-item .pull-right {
