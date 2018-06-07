@@ -359,6 +359,78 @@
       "status": "на сайце",
       "icon": "DIY",
       "preview": ""
+    },
+    {
+      "id": "28",
+      "short_title": "Сардэчкі Майнкрафта (вялікія)",
+      "title": "Сардэчкі Майнкрафта (вялікія)",
+      "description": "",
+      "price": "4 руб.",
+      "discounted_price": "",
+      "discount": "",
+      "status": "на сайце",
+      "icon": "",
+      "preview": ""
+    },
+    {
+      "id": "29",
+      "short_title": "Сардэчкі Майнкрафта",
+      "title": "Сардэчкі Майнкрафта",
+      "description": "",
+      "price": "4 руб.",
+      "discounted_price": "",
+      "discount": "",
+      "status": "на сайце",
+      "icon": "",
+      "preview": ""
+    },
+    {
+      "id": "30",
+      "short_title": "Кахай пак",
+      "title": "Кахай пак",
+      "description": "",
+      "price": "5 руб.",
+      "discounted_price": "",
+      "discount": "",
+      "status": "на сайце",
+      "icon": "",
+      "preview": ""
+    },
+    {
+      "id": "31",
+      "short_title": "Налепкі з раёнамі",
+      "title": "Налепкі з раёнамі",
+      "description": "",
+      "price": "3 руб.",
+      "discounted_price": "",
+      "discount": "",
+      "status": "на сайце",
+      "icon": "",
+      "preview": ""
+    },
+    {
+      "id": "32",
+      "short_title": "Значкі Фаланстэра",
+      "title": "Значкі Фаланстэра",
+      "description": "",
+      "price": "5 руб.",
+      "discounted_price": "",
+      "discount": "",
+      "status": "на сайце",
+      "icon": "",
+      "preview": ""
+    },
+    {
+      "id": "33",
+      "short_title": "Магніта-пак",
+      "title": "Магніта-пак",
+      "description": "",
+      "price": "8 руб.",
+      "discounted_price": "",
+      "discount": "",
+      "status": "на сайце",
+      "icon": "",
+      "preview": ""
     }
   ]
 }
