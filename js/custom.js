@@ -13,6 +13,7 @@ jQuery(document).ready(function( $ ) {
     initValidation($);
   });
   
+  addItemsLabels($);
   // Add zoom to product images 
   $('img[src^="images/products"]').filter(function() {return !$(this).parent().is('a')}).attr('data-action', 'zoom');
 
@@ -38,6 +39,34 @@ jQuery(document).ready(function( $ ) {
   var productInfo = $(".product-info");
   productInfo.stick_in_parent({offset_top: 163});
 });
+
+function addItemsLabels($) {
+  var activePage = window.location.href.split('/').pop().split(/[-.]+/),
+    section = activePage[0] || '',
+    pageId = activePage[1] || '';
+  $.getJSON('items.json', function(data) {
+      if (section in data) {
+        var items = data[section] || [],
+          item = items.filter(function(v) { return v.id && v.id === pageId; }).shift();
+        if (item) {
+          var caption = $('h1.caption-product');
+          var labels = $('<div/>', {class: "labels"}).appendTo(caption);
+          if (item.icon) {
+            labels.append($('<i/>', {class: 'icon icon-' + item.icon.trim().toLowerCase()}));
+          }
+          if (item.discount) {
+            labels.append($('<span/>', {html: item.discount, class: 'label label-sale'}));
+          }
+
+          var captionPrice = $('h1.caption-price');
+          if (item.discounted_price && item.price) {
+            captionPrice.html('<del>'+ captionPrice.text() +'</del>' + item.discounted_price);
+            captionPrice.addClass('sale');
+          }
+        }
+      }
+  });
+}
 
 //  Google analysis
 (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
