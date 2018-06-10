@@ -43,29 +43,48 @@ jQuery(document).ready(function( $ ) {
 function addItemsLabels($) {
   var activePage = window.location.href.split('/').pop().split(/[-.]+/),
     section = activePage[0] || '',
-    pageId = activePage[1] || '';
+    pageId = activePage[1] || '',
+    items = [];
   $.getJSON('items.json', function(data) {
       if (section in data) {
-        var items = data[section] || [],
-          item = items.filter(function(v) { return v.id && v.id === pageId; }).shift();
+        items = data[section] || [];
+        var item = items.filter(function(v) { return v.id && v.id === pageId; }).shift();
         if (item) {
-          var caption = $('h1.caption-product');
-          var labels = $('<div/>', {class: "labels"}).appendTo(caption);
-          if (item.icon) {
-            labels.append($('<i/>', {class: 'icon icon-' + item.icon.trim().toLowerCase()}));
+          showItemLabels($, item);
+        }
+      } else if (section === 'index') {
+        var addIcon = function (item) {
+          var image = $('a[href^="' + dataSection + '-' + item.id + '"]').parent('.img-prod-container');
+          if (image.length && item.icon) {
+            image.addClass(item.icon.trim().toLowerCase() + '-icon');
           }
-          if (item.discount) {
-            labels.append($('<span/>', {html: item.discount, class: 'label label-sale'}));
-          }
-
-          var captionPrice = $('h1.caption-price');
-          if (item.discounted_price && item.price) {
-            captionPrice.html('<del>'+ captionPrice.text() +'</del>' + item.discounted_price);
-            captionPrice.addClass('sale');
-          }
+        };
+        for (var dataSection in data) {
+          items = data[dataSection] || [];
+          items.map(addIcon);
         }
       }
   });
+
+  function showItemLabels($, item) {
+    var caption = $('h1.caption-product');
+    var labels = $('<div/>', { class: "labels" });
+    if (item.icon) {
+      labels.append($('<i/>', { class: 'icon icon-' + item.icon.trim().toLowerCase() }));
+    }
+    if (item.discount) {
+      labels.append($('<span/>', { html: item.discount, class: 'label label-sale' }));
+    }
+    if (item.icon || item.discount) {
+      labels.appendTo(caption);
+    }
+    var captionPrice = $('h1.caption-price');
+    if (item.discounted_price && item.price) {
+      captionPrice.html('<del>' + captionPrice.text() + '</del>' + item.discounted_price);
+      captionPrice.addClass('sale');
+    }
+    
+  }
 }
 
 //  Google analysis
