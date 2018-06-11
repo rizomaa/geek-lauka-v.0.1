@@ -52,7 +52,7 @@ function addItemsLabels($) {
         if (item) {
           showItemLabels($, item);
         }
-      } else if (section === 'index') {
+      } else {
         var addIcon = function (item) {
           var image = $('a[href^="' + dataSection + '-' + item.id + '"]').parent('.img-prod-container');
           if (image.length && item.icon) {
