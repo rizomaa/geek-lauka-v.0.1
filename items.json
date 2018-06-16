@@ -432,5 +432,41 @@
       "icon": "",
       "preview": ""
     }
+    {
+      "id": "34",
+      "short_title": "DIY-байкi Пірацкі камітэт",
+      "title": "DIY-байкi Пірацкі камітэт",
+      "description": "",
+      "price": "65 руб.",
+      "discounted_price": "",
+      "discount": "",
+      "status": "на сайце",
+      "icon": "DIY",
+      "preview": ""
+    }
+    {
+      "id": "35",
+      "short_title": "Цішотка Копімі",
+      "title": "Цішотка Копімі",
+      "description": "",
+      "price": "35 руб.",
+      "discounted_price": "",
+      "discount": "",
+      "status": "на сайце",
+      "icon": "DIY",
+      "preview": ""
+    }
+    {
+      "id": "36",
+      "short_title": "Цяльняшкі Пірацкі камітэт",
+      "title": "Цяльняшкі Пірацкі камітэт",
+      "description": "",
+      "price": "40 руб.",
+      "discounted_price": "",
+      "discount": "",
+      "status": "на сайце",
+      "icon": "DIY",
+      "preview": ""
+    }
   ]
 }
